@@ -11,7 +11,7 @@ HANGMAN = [
 '  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n========='
 ]
 
-WORDLIST = Path(r"C:\Users\mgibb\OneDrive\VisStud\games\wordlist.txt")
+WORDLIST = Path(r"wordlist.txt")
 words = [
     word.lower()
     for word in WORDLIST.read_text(encoding="utf-8").strip().split("\n")
